@@ -1,8 +1,9 @@
-clone or download project then inside project folder run;
-npm i
-npm start
-open in your browser http://localhost:3000/
-
+clone or download project then inside project folder run:<br></br>
+npm i<br></br>
+npm start<br></br>
+open in your browser http://localhost:3000/<br></br>
+<br></br>
+<hr></hr>
 
 ## Available Scripts
 
