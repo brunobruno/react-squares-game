@@ -1,12 +1,9 @@
 import React, { useState, useEffect, SyntheticEvent } from 'react'
+import {Sort,RColor,RNumber,MinMax} from '../services/Utils'
 import Button from '../components/Button'
 import Text from '../components/Text'
 import View from '../components/View'
 import List from '../components/List'
-import Sort from '../components/Sort'
-import RColor from '../components/Rcolor'
-import Rnumber from '../components/Rnumber'
-import MinMax from '../components/Minmax'
 import './../App.scss'
 
 function App() {
@@ -38,7 +35,7 @@ function App() {
 		const squaresArr = []
 		const color = RColor()
 		const board = step * step
-		const randomNumber = Rnumber(board)
+		const randomNumber = RNumber(board)
 		for (let i = 0; i < board; i++) {
 			squaresArr.push(
 				<div
