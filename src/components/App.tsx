@@ -8,7 +8,7 @@ import './../App.scss'
 
 function App() {
 	const [player, setplayer] = useState<string>('')
-	const [steps, setSteps] = useState<number[]>([2, 10])
+	const [steps, setSteps] = useState<number[]>([2, 4])
 	const [currentStep, setcurrentStep] = useState<number>(0)
 	const [isGameOver, setisGameOver] = useState<boolean>(false)
 	const [isHallOfFame, setisHallOfFame] = useState<boolean>(false)
