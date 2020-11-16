@@ -22,7 +22,7 @@ body{
 		margin: 0;
 		font-size: 2.4rem;
 		user-select: none;
-		&.count{
+		&.lg{
 			font-size: 10rem;
 			@include bright(90%,$primaryColor);
 		}
